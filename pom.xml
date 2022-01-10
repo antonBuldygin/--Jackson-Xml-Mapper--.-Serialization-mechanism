@@ -60,9 +60,6 @@
                     <suppressionsLocation>
                         checkstyle-suppressions.xml
                     </suppressionsLocation>
-                    <configLocation>
-                        checkstyle-config.xml
-                    </configLocation>
                 </configuration>
                 <executions>
                     <execution>
