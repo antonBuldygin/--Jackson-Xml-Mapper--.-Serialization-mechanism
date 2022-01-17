@@ -24,7 +24,7 @@ public class AfterBuildConsoleWriter {
             System.out.println("Content of '"+file.getName()+"':");
             stream.forEach(System.out::println);
             System.out.println("End content of '"+file.getName()+"'");
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
